@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import FlightSearchGeneral from './FlightSearchGeneral';
 
 function App() {
+  //Inicializamos el estado activo para abrir o cerrar dependiendo del boton que se presione
   const [activeSearch, setActiveSearch] = useState(null);
 
   const handleClick = (type) => {
@@ -12,11 +13,13 @@ function App() {
     }
   }
 
+  //Creamos la estructura de la pagina
   return (
     <div className='bigContainer'>
       <h1 className='titulo'>Buscador de Vuelos</h1>
       <h2 className='titulo'>Seleccione el tipo de búsqueda</h2>
 
+      {/* Botones para seleccionar el tipo de busqueda */}
       <div className='botones'>
         <button onClick={() => handleClick('arrival')}>Llegada</button>
         <button onClick={() => handleClick('departure')}>Salida</button>
@@ -26,6 +29,7 @@ function App() {
         <button onClick={() => handleClick('price')}>Precio</button>
       </div>
 
+      {/* Dependiendo del boton que se presione, se mostrara el componente FlightSearchGeneral con los parametros que le definamos*/}
       <div className='buscador'>
         {activeSearch === 'arrival' && <FlightSearchGeneral type="arrival" label="Llegada" inputType="date" />}
         {activeSearch === 'departure' && <FlightSearchGeneral type="departure" label="Salida" inputType="date" />}
