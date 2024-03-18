@@ -32,7 +32,7 @@ El Front-End se encuentra en la carpeta `lab1ArquisoftFront`. Sigue estos pasos 
 2. En la terminal navega hasta la carpeta con el siguiente comando:
 
    ```bash
-   cd lab1Arquisoft
+   cd lab1ArquisoftFront
 
 3. Una vez en la carpeta del proyecto Front-End, ejecuta el siguiente comando para iniciar el servidor de desarrollo:
   `npm start`
