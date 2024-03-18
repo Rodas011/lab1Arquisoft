@@ -1,5 +1,5 @@
 # En el siguiente link se encuentra el informe del laboratorio 
-https://docs.google.com/document/d/1_Z4Ir99IE297RFhBlmom_rq2z8iOT-wICpFxkrnkqUU/edit#heading=h.ihifxt5afhyg
+https://docs.google.com/document/d/1_Z4Ir99IE297RFhBlmom_rq2z8iOT-wICpFxkrnkqUU
 
 # Integrantes
 Lopez Higuita Emanuel <br>
@@ -18,7 +18,7 @@ Este repositorio contiene tanto el Front-End como el Back-End de la aplicación 
 
 El Back-End se encuentra en la carpeta `lab1ArquisoftBack`. Para ejecutarlo, sigue estos pasos:
 
-1. Asegúrate de tener configurado tu entorno de desarrollo para ejecutar aplicaciones Java, la version mínima requerida es la JDK 17.
+1. Asegúrate de tener configurado tu entorno de desarrollo para ejecutar aplicaciones Java, la versión mínima requerida es la JDK 17.
 2. Abre tu IDE (NetBeans, Visual Studio o IntelliJ IDEA).
 3. Abre el proyecto ubicado en la carpeta `src`.
 4. Encuentra la clase principal del Back-End `VueloApplication.java`, que contiene el método `main()`.
@@ -34,9 +34,9 @@ El Front-End se encuentra en la carpeta `lab1ArquisoftFront`. Sigue estos pasos 
    ```bash
    cd lab1ArquisoftFront
 
-3. Una vez en la carpeta del proyecto Front-End, ejecuta el siguiente comando para iniciar el servidor de desarrollo:
+3. Una vez en la carpeta del proyecto Front-End, proceda a la instalación de npm con el siguiente comando:
+  `npm install`
+4. Por último, ejecute el siguiente comando para iniciar el servidor de desarrollo:
   `npm start`
   
 Esto iniciará el servidor de desarrollo y podrás acceder al Front-End en tu navegador a través de la dirección proporcionada por la terminal.
-
-
